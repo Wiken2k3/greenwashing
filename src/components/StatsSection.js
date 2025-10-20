@@ -2,8 +2,8 @@ import React from "react";
 import "./StatsSection.css";
 
 import labelImg from "../assets/images/eco.png";
-import natureImg from "../assets/images/nature-fake.png";
-// import hideImg from "../assets/hide-info.png";
+import natureImg from "../assets/images/issues.png";
+import hideImg from "../assets/images/nature-fake.png";
 
 function GreenwashingTactics() {
   return (
@@ -26,7 +26,13 @@ function GreenwashingTactics() {
           <a href="#learn-more" className="learn-more-btn">Tìm hiểu thêm</a>
         </div>
         <div className="tactic-card">
-          {/* <img src={hideImg} alt="Che giấu thông tin" /> */}
+          <img src={hideImg} alt="Che giấu thông tin" />
+          <h3>Che giấu thông tin quan trọng</h3>
+          <p>Quảng cáo một khía cạnh "xanh" nhỏ trong khi che giấu tác động xấu lớn hơn.</p>
+          <a href="#learn-more" className="learn-more-btn">Tìm hiểu thêm</a>
+        </div>
+        <div className="tactic-card">
+          <img src={hideImg} alt="Che giấu thông tin" />
           <h3>Che giấu thông tin quan trọng</h3>
           <p>Quảng cáo một khía cạnh "xanh" nhỏ trong khi che giấu tác động xấu lớn hơn.</p>
           <a href="#learn-more" className="learn-more-btn">Tìm hiểu thêm</a>

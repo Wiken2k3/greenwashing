@@ -4,7 +4,9 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2025 Greenwashing Awareness Project | Made with ❤️ by Tuấn</p>
+      <div className="footer-content">
+        <p>© 2025 Greenwashing Awareness | Made with ❤️ by DGHuyy</p>
+      </div>
     </footer>
   );
 }
