@@ -1,0 +1,35 @@
+.impact {
+  padding: 100px 40px;
+  background: white;
+  text-align: center;
+}
+
+.impact h2 {
+  color: #1b5e20;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.impact-card {
+  background: #f9fbe7;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.impact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.impact-card h3 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,23 @@
+.footer {
+  background: #1b5e20;
+  color: #f1f8e9;
+  text-align: center;
+  padding: 30px 10px;
+  font-size: 0.95rem;
+}
+
+.footer a {
+  color: #c8e6c9;
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    font-size: 0.85rem;
+  }
+}

@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Khởi tạo root React
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -11,7 +12,16 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// 🔽 Đặt đoạn code thêm hiệu ứng scroll sau khi render xong
+window.addEventListener("scroll", () => {
+  const sections = document.querySelectorAll("section");
+  sections.forEach((sec) => {
+    const rect = sec.getBoundingClientRect();
+    if (rect.top < window.innerHeight * 0.8) {
+      sec.style.opacity = 1;
+      sec.style.transform = "translateY(0)";
+    }
+  });
+});
+
 reportWebVitals();
