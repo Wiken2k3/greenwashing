@@ -6,6 +6,7 @@ import About from "./components/About";
 import Impact from "./components/Impact";
 import Survey from "./components/Survey";
 import Footer from "./components/Footer";
+import Maps from "./components/Maps";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <StatsSection />
       <Impact />
       <Survey />
+      <Maps />
       <Footer />
     </div>
   );
