@@ -7,14 +7,14 @@ function Hero() {
     <section className="hero">
       <div className="hero-overlay"></div>
       <div className="hero-content">
-        <h1>Hiểu rõ hơn về <span>Greenwashing</span></h1>
+        <h1>Hiểu rõ hơn về <span>GREENWASHING</span></h1>
         <p>
-          Greenwashing là khi các thương hiệu “giả vờ xanh” để đánh lừa người tiêu dùng.
+          GREENWASHING là khi các thương hiệu “giả vờ xanh” để đánh lừa người tiêu dùng.
           Hãy cùng tham gia khảo sát để nâng cao nhận thức và tạo ra thay đổi tích cực 🌱
         </p>
         <SurveyButton />
       </div>
-    </section>
+    </section>  
   );
 }
 

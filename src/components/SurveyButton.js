@@ -2,7 +2,7 @@ import React from "react";
 import "./SurveyButton.css";
 
 function SurveyButton() {
-  const surveyLink = "https://forms.gle/YOUR_GOOGLE_FORM_LINK"; // Cập nhật link thật
+  const surveyLink = "https://docs.google.com/forms/d/e/1FAIpQLSeJDlxJ3CTCMqqUddtRZkfFQJ4rDDQOm3Cy5Jk8WKhooDpZcA/viewform?usp=dialog"; // Cập nhật link thật
 
   return (
     <div className="survey-button">
